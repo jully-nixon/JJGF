@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jjgf.cardapio;
+package JJGF.cardapio;
 
 /**
  *
@@ -87,4 +87,13 @@ public class Cardapio {
         this.valor = valor;
     }
 
+    /**
+     * @return the id_cardapio
+     */
+   
+        
+        
+    
+    
+    
 }

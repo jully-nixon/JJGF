@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jjgf.pedido;
+package JJGF.pedido;
 
 import java.util.Date;
-import jjgf.Cliente.Cliente;
-import jjgf.fucionario.Funcionario;
-import jjgf.cardapio.Cardapio;
+import JJGF.cliente.Cliente;
+import JJGF.funcionario.Funcionario;
+import JJGF.cardapio.Cardapio;
 
 /**
  *
@@ -16,7 +16,7 @@ import jjgf.cardapio.Cardapio;
  */
 public class Pedido {
     
-     private int id_pedido;
+    private int id_pedido;
         private Date data_pedido;
         private String local_entrega;
         private String pontoReferencia;
@@ -113,14 +113,14 @@ public class Pedido {
     }
 
     /**
-     * @return the Funcionario
+     * @return the funcionario
      */
     public Funcionario getFuncionario() {
         return funcionario;
     }
 
     /**
-     * @param funcionario the Funcionario to set
+     * @param funcionario the funcionario to set
      */
     public void setFuncionario(Funcionario funcionario) {
         this.funcionario = funcionario;
