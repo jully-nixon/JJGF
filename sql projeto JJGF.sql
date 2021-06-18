@@ -12,7 +12,7 @@ CREATE TABLE cliente
 
 )
 
-Select * from cliente
+
 
 
 CREATE TABLE funcionario
